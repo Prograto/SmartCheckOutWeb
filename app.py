@@ -11,7 +11,7 @@ CORS(app)  # enable if testing locally
 app.secret_key = 'prograto'
 
 # Replace this with your real MongoDB URI
-client = MongoClient("mongodb+srv://smartcheckout:smartcheckout@smartcheckout.z6jaqh9.mongodb.net/?retryWrites=true&w=majority&appName=Smartcheckout")
+client = MongoClient("your_mongo_url")
 db = client.smartcheckout
 
 @app.route('/')
